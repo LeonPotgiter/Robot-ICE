@@ -177,30 +177,30 @@ class MainActivity : AppCompatActivity() {
 }
 
 interface RobotCommands{
-    @GET("forward")
+    @GET("Forward")
     fun robotMove(): Call<Void>
 
-    @GET("backward")
+    @GET("Backward")
     fun robotBack(): Call<Void>
 
     @GET("Stop")
     fun robotStop(): Call<Void>
 
-    @GET("api/Sad")
+    @GET("Sad")
     fun robotSad(): Call<Void>
 
-    @GET("api/Happy")
+    @GET("Happy")
     fun robotHappy(): Call<Void>
 
-    @GET("api/Left")
+    @GET("Left")
     fun robotLeft(): Call<Void>
 
-    @GET("api/Right")
+    @GET("Right")
     fun robotRight(): Call<Void>
 
-    @GET("api/Shine")
+    @GET("Shine")
     fun robotShine(): Call<Void>
 
-    @GET("api/Sing")
+    @GET("Sing")
     fun robotSing(): Call<Void>
 }
